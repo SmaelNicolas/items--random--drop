@@ -8,6 +8,31 @@
 	width: calc(100vw - (100vw - 100%));
 	min-height: 100vh;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	gap: 50px;
+}
+
+.button {
+	padding: 10px 20px;
+}
+
+.common {
+	color: #b0c3d9;
+}
+.uncommon {
+	color: #5e98d9;
+}
+.rare {
+	color: #4b69ff;
+}
+.mythical {
+	color: #8847ff;
+}
+.legendary {
+	color: #d32ce6;
+}
+.immortal {
+	color: #b28a33;
 }
